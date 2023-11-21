@@ -1,0 +1,112 @@
+/* 
+  Localizable.strings
+  GeoQuizApp
+
+  Created by Sedat Düntas on 08.10.23.
+  
+*/
+
+/* New game */
+"newGame" = "New Game";
+
+/* Continue playing */
+"continuePlaying" = "Continue Playing";
+
+/* Country list */
+"countryList" = "Country List";
+
+/* Welcome to the game */
+"welcomeMessage" = "Welcome to GeoQuiz! This is an exciting quiz game where you can test your knowledge of countries.";
+
+/* Gameplay */
+"gameplay" = "Gameplay";
+
+/* Selection of the game category */
+"categorySelection" = "1. Game Categories: Choose a category to test your knowledge, such as 'Capital Cities,' 'Flags,' or 'Currencies.'";
+
+/* Continent selection */
+"continentSelection" = "2. Continents: Choose a continent to explore. There are six continents available: Europe, Asia, Africa, North America, South America, and Oceania.";
+
+/* Quiz information */
+"quizInfo" = "3. Quiz: The game includes questions about countries on your selected continent. Choose the correct answer to earn points. The game ends once you've answered all the questions.";
+
+/* Your goal */
+"yourGoal" = "Your Goal";
+
+/* Your goal description */
+"yourGoalDescription" = "Your goal is to answer as many questions correctly as possible and achieve the highest score.";
+
+/* Have fun playing GeoQuiz */
+"haveFun" = "Have fun playing GeoQuiz and good luck testing your knowledge of countries and continents!";
+
+/* Information */
+"information" = "Information";
+
+/* Name */
+"name" = "Name:";
+
+/* Capital */
+"capital" = "Capital:";
+
+/* Currency */
+"currency" = "Currency:";
+
+/* Language */
+"language" = "Language:";
+
+/* Recent games */
+"recentGames" = "Recent Games";
+
+/* Category */
+"category" = "Category:";
+
+/* Continent */
+"continent" = "Continent:";
+
+/* Progress */
+"progress" = "Progress:";
+
+/* Countries */
+"countries" = "Countries";
+
+/* Score */
+"score" = "Score:";
+
+/* Delete */
+"delete" = "Delete";
+
+/* Category selection title */
+"categorySelectionTitle" = "Category Selection";
+
+/* Category title */
+"categoryTitle" = "Category";
+
+/* Continent selection title */
+"continentSelectionTitle" = "Continent Selection";
+
+/* Continue title */
+"continueTitle" = "Continue";
+
+/* Result title */
+"resultTitle" = "Result";
+
+/* Result category */
+"resultCategory" = "Category:";
+
+/* Result continent */
+"resultContinent" = "Continent:";
+
+/* Result score */
+"resultScore" = "Score:";
+
+/* Out of */
+"outOf" = "out of";
+
+/* Questions */
+"questions" = "Questions";
+
+/* Home */
+"home" = "Home";
+
+/* Game result */
+"gameResult" = "Game Result";

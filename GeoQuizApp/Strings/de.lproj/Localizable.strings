@@ -1,0 +1,112 @@
+/* 
+  Localizable.strings
+  GeoQuizApp
+
+  Created by Sedat Düntas on 08.10.23.
+  
+*/
+
+/* New game */
+"newGame" = "Neues Spiel";
+
+/* Continue playing */
+"continuePlaying" = "Weiterspielen";
+
+/* Country list */
+"countryList" = "Länderliste";
+
+/* Welcome to the game */
+"welcomeMessage" = "Willkommen zu GeoQuiz! Dies ist ein aufregendes Quizspiel, bei dem du dein Wissen über Länder testen kannst.";
+
+/* Gameplay */
+"gameplay" = "Spielablauf";
+
+/* Selection of the game category */
+"categorySelection" = "1. Spielkategorien: Wähle eine Kategorie, um dein Wissen zu testen, z.B. 'Hauptstädte', 'Flaggen' oder 'Währungen.'";
+
+/* Continent selection */
+"continentSelection" = "2. Kontinente: Wähle einen Kontinent zum Erkunden aus. Zur Verfügung stehen sechs Kontinente: Europa, Asien, Afrika, Nordamerika, Südamerika und Ozeanien.";
+
+/* Quiz information */
+"quizInfo" = "3. Quiz: Das Spiel beinhaltet Fragen zu Ländern auf deinem gewählten Kontinent. Wähle die richtige Antwort, um Punkte zu sammeln. Das Spiel endet, sobald du alle Fragen beantwortet hast.";
+
+/* Your goal */
+"yourGoal" = "Dein Ziel";
+
+/* Your goal description */
+"yourGoalDescription" = "Dein Ziel ist es, so viele Fragen wie möglich richtig zu beantworten und die höchste Punktzahl zu erreichen.";
+
+/* Have fun playing GeoQuiz */
+"haveFun" = "Viel Spaß beim Spielen von GeoQuiz und viel Erfolg dabei, dein Wissen über Länder und Kontinente zu testen!";
+
+/* Information */
+"information" = "Informationen";
+
+/* Name */
+"name" = "Name:";
+
+/* Capital */
+"capital" = "Hauptstadt:";
+
+/* Currency */
+"currency" = "Währung:";
+
+/* Language */
+"language" = "Sprache:";
+
+/* Recent games */
+"recentGames" = "Zuletzt gespielten Spiele";
+
+/* Category */
+"category" = "Kategorie:";
+
+/* Continent */
+"continent" = "Kontinent:";
+
+/* Progress */
+"progress" = "Fortschritt:";
+
+/* Countries */
+"countries" = "Länder";
+
+/* Score */
+"score" = "Score:";
+
+/* Delete */
+"delete" = "Löschen";
+
+/* Category selection title */
+"categorySelectionTitle" = "Kategorie Auswahl";
+
+/* Category title */
+"categoryTitle" = "Kategorie";
+
+/* Continent selection title */
+"continentSelectionTitle" = "Kontinenten Auswahl";
+
+/* Continue title */
+"continueTitle" = "Weiter";
+
+/* Result title */
+"resultTitle" = "Ergebnis";
+
+/* Result category */
+"resultCategory" = "Kategorie:";
+
+/* Result continent */
+"resultContinent" = "Kontinent:";
+
+/* Result score */
+"resultScore" = "Score:";
+
+/* Out of */
+"outOf" = "von";
+
+/* Questions */
+"questions" = "Fragen";
+
+/* Home */
+"home" = "Home";
+
+/* Game result */
+"gameResult" = "Spielresultat";

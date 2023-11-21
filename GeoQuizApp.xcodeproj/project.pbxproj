@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F081B9D2AA1E59E00734519 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F081B9C2AA1E59E00734519 /* SplashScreenView.swift */; };
+		9F1215762ACD861E0029E72D /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1215752ACD861E0029E72D /* QuizViewModel.swift */; };
+		9F1215782ACE22830029E72D /* GeoQuizLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1215772ACE22830029E72D /* GeoQuizLogoView.swift */; };
+		9F148E472AC2F3F200E2768E /* InfoSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F148E462AC2F3F200E2768E /* InfoSheetView.swift */; };
+		9F22F0A82ACAF93400AF5BA3 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F22F0A72ACAF93400AF5BA3 /* ResultView.swift */; };
+		9F22F0AA2ACAF9B800AF5BA3 /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F22F0A92ACAF9B800AF5BA3 /* ResultType.swift */; };
+		9F22F0B42ACCDB8200AF5BA3 /* BackgroundCitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F22F0B32ACCDB8200AF5BA3 /* BackgroundCitiesView.swift */; };
+		9F22F0B62ACCDBF200AF5BA3 /* BackgroundCurrenciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F22F0B52ACCDBF200AF5BA3 /* BackgroundCurrenciesView.swift */; };
+		9F22F0B82ACCDC5100AF5BA3 /* BackgroundBlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F22F0B72ACCDC5100AF5BA3 /* BackgroundBlueView.swift */; };
+		9F22F0BA2ACCE21800AF5BA3 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F22F0B92ACCE21800AF5BA3 /* QuizView.swift */; };
+		9F23046A2A9CBD4200A65410 /* GeoQuizAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2304692A9CBD4200A65410 /* GeoQuizAppApp.swift */; };
+		9F23046E2A9CBD4300A65410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F23046D2A9CBD4300A65410 /* Assets.xcassets */; };
+		9F2304712A9CBD4300A65410 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F2304702A9CBD4300A65410 /* Preview Assets.xcassets */; };
+		9F43C0152ABB2BE8009250DD /* GameOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F43C0142ABB2BE8009250DD /* GameOption.swift */; };
+		9F45F9302A9E2F7A003BEC68 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F45F92F2A9E2F7A003BEC68 /* HomeView.swift */; };
+		9F6F0A642AB9BE1400096A78 /* ContinentOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F0A632AB9BE1400096A78 /* ContinentOption.swift */; };
+		9F813FF82AD2D2C600DADEE5 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F813FF72AD2D2C600DADEE5 /* Strings.swift */; };
+		9F813FF92AD2DAF600DADEE5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F813FFB2AD2DAF600DADEE5 /* Localizable.strings */; };
+		9F94A4332AA3F80800810FEF /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F94A4322AA3F80800810FEF /* Color.swift */; };
+		9F962CBA2AD21849007E6AFD /* InfoSheetHeaderModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F962CB92AD21849007E6AFD /* InfoSheetHeaderModifier.swift */; };
+		9F962CBE2AD21E8A007E6AFD /* ContinueModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F962CBD2AD21E8A007E6AFD /* ContinueModifier.swift */; };
+		9F962CC02AD22131007E6AFD /* QuizHeaderModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F962CBF2AD22131007E6AFD /* QuizHeaderModifier.swift */; };
+		9FB3347D2AAF498900222D59 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB3347C2AAF498900222D59 /* Country.swift */; };
+		9FB3349B2AB45B9200222D59 /* CountriesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB3349A2AB45B9200222D59 /* CountriesRepository.swift */; };
+		9FB4174B2AA9DA2500A1BB15 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FB417492AA9DA2500A1BB15 /* DataModel.xcdatamodeld */; };
+		9FB4174F2AA9DD6600A1BB15 /* PersistentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB4174E2AA9DD6600A1BB15 /* PersistentStore.swift */; };
+		9FB417572AA9FF9D00A1BB15 /* ContinueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB417562AA9FF9D00A1BB15 /* ContinueView.swift */; };
+		9FF5BB4B2AC1F653004783C3 /* CountryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF5BB4A2AC1F653004783C3 /* CountryListView.swift */; };
+		9FF5BB4D2AC1F798004783C3 /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF5BB4C2AC1F798004783C3 /* CountryDetailView.swift */; };
+		9FF94FE52AA8AD220021A539 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF94FE42AA8AD220021A539 /* ButtonView.swift */; };
+		9FFEB8902AC43E9A009DA1E7 /* GameSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFEB88F2AC43E9A009DA1E7 /* GameSelectionView.swift */; };
+		9FFEB8962AC58297009DA1E7 /* ContinueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFEB8952AC58297009DA1E7 /* ContinueViewModel.swift */; };
+		9FFEB8982AC5A25A009DA1E7 /* GameSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFEB8972AC5A25A009DA1E7 /* GameSelectionViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F081B9C2AA1E59E00734519 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		9F1215752ACD861E0029E72D /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
+		9F1215772ACE22830029E72D /* GeoQuizLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoQuizLogoView.swift; sourceTree = "<group>"; };
+		9F148E462AC2F3F200E2768E /* InfoSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSheetView.swift; sourceTree = "<group>"; };
+		9F22F0A72ACAF93400AF5BA3 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		9F22F0A92ACAF9B800AF5BA3 /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
+		9F22F0B32ACCDB8200AF5BA3 /* BackgroundCitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundCitiesView.swift; sourceTree = "<group>"; };
+		9F22F0B52ACCDBF200AF5BA3 /* BackgroundCurrenciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundCurrenciesView.swift; sourceTree = "<group>"; };
+		9F22F0B72ACCDC5100AF5BA3 /* BackgroundBlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundBlueView.swift; sourceTree = "<group>"; };
+		9F22F0B92ACCE21800AF5BA3 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		9F2304662A9CBD4200A65410 /* GeoQuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoQuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2304692A9CBD4200A65410 /* GeoQuizAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoQuizAppApp.swift; sourceTree = "<group>"; };
+		9F23046D2A9CBD4300A65410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F2304702A9CBD4300A65410 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F43C0142ABB2BE8009250DD /* GameOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOption.swift; sourceTree = "<group>"; };
+		9F45F92F2A9E2F7A003BEC68 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9F6F0A632AB9BE1400096A78 /* ContinentOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentOption.swift; sourceTree = "<group>"; };
+		9F813FF72AD2D2C600DADEE5 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		9F813FFA2AD2DAF600DADEE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9F813FFC2AD2DAFF00DADEE5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9F94A4322AA3F80800810FEF /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		9F962CB92AD21849007E6AFD /* InfoSheetHeaderModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSheetHeaderModifier.swift; sourceTree = "<group>"; };
+		9F962CBD2AD21E8A007E6AFD /* ContinueModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueModifier.swift; sourceTree = "<group>"; };
+		9F962CBF2AD22131007E6AFD /* QuizHeaderModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizHeaderModifier.swift; sourceTree = "<group>"; };
+		9FB3347C2AAF498900222D59 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		9FB3349A2AB45B9200222D59 /* CountriesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesRepository.swift; sourceTree = "<group>"; };
+		9FB4174A2AA9DA2500A1BB15 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		9FB4174E2AA9DD6600A1BB15 /* PersistentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStore.swift; sourceTree = "<group>"; };
+		9FB417562AA9FF9D00A1BB15 /* ContinueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueView.swift; sourceTree = "<group>"; };
+		9FF5BB4A2AC1F653004783C3 /* CountryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListView.swift; sourceTree = "<group>"; };
+		9FF5BB4C2AC1F798004783C3 /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
+		9FF94FE42AA8AD220021A539 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		9FFEB88F2AC43E9A009DA1E7 /* GameSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelectionView.swift; sourceTree = "<group>"; };
+		9FFEB8952AC58297009DA1E7 /* ContinueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueViewModel.swift; sourceTree = "<group>"; };
+		9FFEB8972AC5A25A009DA1E7 /* GameSelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelectionViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F2304632A9CBD4200A65410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F23045D2A9CBD4100A65410 = {
+			isa = PBXGroup;
+			children = (
+				9F2304682A9CBD4200A65410 /* GeoQuizApp */,
+				9F2304672A9CBD4200A65410 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F2304672A9CBD4200A65410 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F2304662A9CBD4200A65410 /* GeoQuizApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F2304682A9CBD4200A65410 /* GeoQuizApp */ = {
+			isa = PBXGroup;
+			children = (
+				9F23046D2A9CBD4300A65410 /* Assets.xcassets */,
+				9F2304692A9CBD4200A65410 /* GeoQuizAppApp.swift */,
+				9F962CC22AD229A7007E6AFD /* Strings */,
+				9FB3346F2AAB333100222D59 /* Repositories */,
+				9FB4174D2AA9DD3600A1BB15 /* Core Data */,
+				9F94A42D2AA3EEB100810FEF /* Models */,
+				9F45F9372A9FFA54003BEC68 /* Views */,
+				9FB4174C2AA9DB3000A1BB15 /* ViewModels */,
+				9F23046F2A9CBD4300A65410 /* Preview Content */,
+			);
+			path = GeoQuizApp;
+			sourceTree = "<group>";
+		};
+		9F23046F2A9CBD4300A65410 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F2304702A9CBD4300A65410 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F45F9372A9FFA54003BEC68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FB334942AB44F7300222D59 /* Components */,
+				9F962CC12AD22746007E6AFD /* Modifier */,
+				9F081B9C2AA1E59E00734519 /* SplashScreenView.swift */,
+				9F45F92F2A9E2F7A003BEC68 /* HomeView.swift */,
+				9F148E462AC2F3F200E2768E /* InfoSheetView.swift */,
+				9FF5BB4A2AC1F653004783C3 /* CountryListView.swift */,
+				9FF5BB4C2AC1F798004783C3 /* CountryDetailView.swift */,
+				9FB417562AA9FF9D00A1BB15 /* ContinueView.swift */,
+				9FFEB88F2AC43E9A009DA1E7 /* GameSelectionView.swift */,
+				9F22F0B92ACCE21800AF5BA3 /* QuizView.swift */,
+				9F22F0A72ACAF93400AF5BA3 /* ResultView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F94A42D2AA3EEB100810FEF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F94A4322AA3F80800810FEF /* Color.swift */,
+				9FB3347C2AAF498900222D59 /* Country.swift */,
+				9FB334952AB4507D00222D59 /* Enums */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F962CC12AD22746007E6AFD /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				9F22F0B32ACCDB8200AF5BA3 /* BackgroundCitiesView.swift */,
+				9F22F0B52ACCDBF200AF5BA3 /* BackgroundCurrenciesView.swift */,
+				9F22F0B72ACCDC5100AF5BA3 /* BackgroundBlueView.swift */,
+				9F1215772ACE22830029E72D /* GeoQuizLogoView.swift */,
+				9F962CB92AD21849007E6AFD /* InfoSheetHeaderModifier.swift */,
+				9F962CBD2AD21E8A007E6AFD /* ContinueModifier.swift */,
+				9F962CBF2AD22131007E6AFD /* QuizHeaderModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		9F962CC22AD229A7007E6AFD /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				9F813FF72AD2D2C600DADEE5 /* Strings.swift */,
+				9F813FFB2AD2DAF600DADEE5 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		9FB3346F2AAB333100222D59 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				9FB3349A2AB45B9200222D59 /* CountriesRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		9FB334942AB44F7300222D59 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9FF94FE42AA8AD220021A539 /* ButtonView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9FB334952AB4507D00222D59 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				9F6F0A632AB9BE1400096A78 /* ContinentOption.swift */,
+				9F43C0142ABB2BE8009250DD /* GameOption.swift */,
+				9F22F0A92ACAF9B800AF5BA3 /* ResultType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		9FB4174C2AA9DB3000A1BB15 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9FFEB8972AC5A25A009DA1E7 /* GameSelectionViewModel.swift */,
+				9FFEB8952AC58297009DA1E7 /* ContinueViewModel.swift */,
+				9F1215752ACD861E0029E72D /* QuizViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9FB4174D2AA9DD3600A1BB15 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				9FB4174E2AA9DD6600A1BB15 /* PersistentStore.swift */,
+				9FB417492AA9DA2500A1BB15 /* DataModel.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F2304652A9CBD4200A65410 /* GeoQuizApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2304742A9CBD4300A65410 /* Build configuration list for PBXNativeTarget "GeoQuizApp" */;
+			buildPhases = (
+				9F2304622A9CBD4200A65410 /* Sources */,
+				9F2304632A9CBD4200A65410 /* Frameworks */,
+				9F2304642A9CBD4200A65410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoQuizApp;
+			productName = GeoQuizApp;
+			productReference = 9F2304662A9CBD4200A65410 /* GeoQuizApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F23045E2A9CBD4100A65410 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9F2304652A9CBD4200A65410 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9F2304612A9CBD4100A65410 /* Build configuration list for PBXProject "GeoQuizApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = 9F23045D2A9CBD4100A65410;
+			productRefGroup = 9F2304672A9CBD4200A65410 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F2304652A9CBD4200A65410 /* GeoQuizApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F2304642A9CBD4200A65410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2304712A9CBD4300A65410 /* Preview Assets.xcassets in Resources */,
+				9F813FF92AD2DAF600DADEE5 /* Localizable.strings in Resources */,
+				9F23046E2A9CBD4300A65410 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F2304622A9CBD4200A65410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F22F0AA2ACAF9B800AF5BA3 /* ResultType.swift in Sources */,
+				9F22F0B42ACCDB8200AF5BA3 /* BackgroundCitiesView.swift in Sources */,
+				9F43C0152ABB2BE8009250DD /* GameOption.swift in Sources */,
+				9FB4174B2AA9DA2500A1BB15 /* DataModel.xcdatamodeld in Sources */,
+				9F1215762ACD861E0029E72D /* QuizViewModel.swift in Sources */,
+				9F962CBA2AD21849007E6AFD /* InfoSheetHeaderModifier.swift in Sources */,
+				9FF94FE52AA8AD220021A539 /* ButtonView.swift in Sources */,
+				9FF5BB4B2AC1F653004783C3 /* CountryListView.swift in Sources */,
+				9FB4174F2AA9DD6600A1BB15 /* PersistentStore.swift in Sources */,
+				9FF5BB4D2AC1F798004783C3 /* CountryDetailView.swift in Sources */,
+				9F22F0B82ACCDC5100AF5BA3 /* BackgroundBlueView.swift in Sources */,
+				9F813FF82AD2D2C600DADEE5 /* Strings.swift in Sources */,
+				9F22F0A82ACAF93400AF5BA3 /* ResultView.swift in Sources */,
+				9F22F0BA2ACCE21800AF5BA3 /* QuizView.swift in Sources */,
+				9F45F9302A9E2F7A003BEC68 /* HomeView.swift in Sources */,
+				9F962CC02AD22131007E6AFD /* QuizHeaderModifier.swift in Sources */,
+				9FB3347D2AAF498900222D59 /* Country.swift in Sources */,
+				9F94A4332AA3F80800810FEF /* Color.swift in Sources */,
+				9F22F0B62ACCDBF200AF5BA3 /* BackgroundCurrenciesView.swift in Sources */,
+				9FB417572AA9FF9D00A1BB15 /* ContinueView.swift in Sources */,
+				9F23046A2A9CBD4200A65410 /* GeoQuizAppApp.swift in Sources */,
+				9FFEB8902AC43E9A009DA1E7 /* GameSelectionView.swift in Sources */,
+				9F148E472AC2F3F200E2768E /* InfoSheetView.swift in Sources */,
+				9F081B9D2AA1E59E00734519 /* SplashScreenView.swift in Sources */,
+				9F6F0A642AB9BE1400096A78 /* ContinentOption.swift in Sources */,
+				9F1215782ACE22830029E72D /* GeoQuizLogoView.swift in Sources */,
+				9FFEB8962AC58297009DA1E7 /* ContinueViewModel.swift in Sources */,
+				9FB3349B2AB45B9200222D59 /* CountriesRepository.swift in Sources */,
+				9FFEB8982AC5A25A009DA1E7 /* GameSelectionViewModel.swift in Sources */,
+				9F962CBE2AD21E8A007E6AFD /* ContinueModifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F813FFB2AD2DAF600DADEE5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F813FFA2AD2DAF600DADEE5 /* en */,
+				9F813FFC2AD2DAFF00DADEE5 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F2304722A9CBD4300A65410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F2304732A9CBD4300A65410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F2304752A9CBD4300A65410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeoQuizApp/Preview Content\"";
+				DEVELOPMENT_TEAM = KWC2L2AWLX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sedat.GeoQuizApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F2304762A9CBD4300A65410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeoQuizApp/Preview Content\"";
+				DEVELOPMENT_TEAM = KWC2L2AWLX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sedat.GeoQuizApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F2304612A9CBD4100A65410 /* Build configuration list for PBXProject "GeoQuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2304722A9CBD4300A65410 /* Debug */,
+				9F2304732A9CBD4300A65410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2304742A9CBD4300A65410 /* Build configuration list for PBXNativeTarget "GeoQuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2304752A9CBD4300A65410 /* Debug */,
+				9F2304762A9CBD4300A65410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9FB417492AA9DA2500A1BB15 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9FB4174A2AA9DA2500A1BB15 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 9FB4174A2AA9DA2500A1BB15 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F23045E2A9CBD4100A65410 /* Project object */;
+}
