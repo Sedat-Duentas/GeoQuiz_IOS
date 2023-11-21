@@ -1,13 +1,43 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/HwhnA9gg)
-# Abschluss Batch 6
+# GeoQuiz App
 
-Liebe Teilnehmer:innen,
+![GeoQuiz Logo](link_zum_logo.png)
 
-mit großer Freude und Stolz möchten wir nun gemeinsam in die letzte Phase starten – den Abschluss dieses Kurses. Die Zeit, die wir zusammen verbracht haben, war erfüllt von intensivem Lernen, wertvollen Erkenntnissen und bereichernden Erfahrungen.
+Die GeoQuiz-App ist eine interaktive Anwendung, die dein Wissen über Flaggen, Städte und Währungen auf die Probe stellt. Teste dein geographisches Wissen und verbessere es, indem du Fragen zu verschiedenen Ländern der Welt beantwortest.
 
-Dieser Abschluss markiert nicht nur das Ende eines Kurses, sondern auch den Beginn einer neuen Phase. Die erworbenen Kenntnisse und Kompetenzen werden euch zweifellos Türen öffnen und neue Chancen bieten. Nutzt das Gelernte, um eure Ziele zu verfolgen, eure Träume zu verwirklichen und euren Weg erfolgreich fortzusetzen.
+## Funktionen
 
-Wir hatten viel Spaß im Kurs, es war eine Freude, ganz viele Projekte mit euch zu programmieren und zu sehen, wie ihr jeden Tag besser werdet und etwas dazu lernt. Ich hoffe, ihr hast Spaß an eurem Abschlussprojekt und ich freue mich, daran mit euch zu arbeiten.
+- **Flaggenquiz:** Erkenne die Länder anhand ihrer Flaggen.
+- **Städtequiz:** Finde heraus, wie gut du die Hauptstädte kennst.
+- **Währungsquiz:** Teste dein Wissen über Währungen.
 
-Viel Erfolg!\
-Kevin
+## Technologien
+
+- Entwickelt mit Kotlin für die Android-Plattform.
+- Integration von [Name einer Bibliothek/Api, falls vorhanden].
+
+## Installation
+
+1. Klone das Repository: `git clone https://github.com/DeinBenutzername/GeoQuiz.git`
+2. Öffne das Projekt in Android Studio.
+3. Baue die App und führe sie auf einem Emulator oder einem physischen Gerät aus.
+
+## Screenshots
+
+![Screenshot 1](link_zum_screenshot_1.png)
+![Screenshot 2](link_zum_screenshot_2.png)
+
+## Mitwirkende
+
+- Sedat D.
+- [Name eines Mitwirkenden, falls vorhanden]
+
+## Lizenz
+
+Dieses Projekt ist unter der [Lizenz] lizenziert - siehe die [LICENSE.md](LICENSE.md) Datei für Details.
+
+## Kontakt
+
+Bei Fragen oder Vorschlägen, kontaktiere mich unter [deine.email@example.com].
+
+Folge mir auf GitHub, um über die neuesten Entwicklungen informiert zu bleiben!
+
