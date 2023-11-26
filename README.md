@@ -31,8 +31,8 @@ https://github.com/Sedat-Duentas/GeoQuiz_IOS/assets/121946890/89c04ceb-23e8-4e02
 
 ## Screenshots
 
-![Screenshot 1](link_zum_screenshot_1.png)
-![Screenshot 2](link_zum_screenshot_2.png)
+<img width="341" alt="Home" src="https://github.com/Sedat-Duentas/GeoQuiz_IOS/assets/121946890/f236c655-3288-44cd-83ea-ad83ec2e1ca1">
+
 
 ## Lizenz
 
