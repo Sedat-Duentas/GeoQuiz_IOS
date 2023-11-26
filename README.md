@@ -26,6 +26,9 @@ Dieses Swift-Projekt in Xcode verwendet:
 2. Öffne das Projekt in Android Studio.
 3. Baue die App und führe sie auf einem Emulator oder einem physischen Gerät aus.
 
+
+https://github.com/Sedat-Duentas/GeoQuiz_IOS/assets/121946890/89c04ceb-23e8-4e02-9602-9c2c44612199
+
 ## Screenshots
 
 ![Screenshot 1](link_zum_screenshot_1.png)
