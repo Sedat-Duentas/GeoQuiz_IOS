@@ -12,8 +12,13 @@ Die GeoQuiz-App ist eine interaktive Anwendung, die dein Wissen über Flaggen, S
 
 ## Technologien
 
-- Entwickelt mit Kotlin für die Android-Plattform.
-- Integration von [Name einer Bibliothek/Api, falls vorhanden].
+Dieses Swift-Projekt in Xcode verwendet:
+
+- **MVVM-Pattern:** Für eine klare Strukturierung von Datenmodellen, Benutzeroberfläche und Geschäftslogik.
+
+- **Core Data:** Zur effizienten Modellierung und Speicherung von Daten.
+
+- **Externe API:** Für die Integration von Flaggen-, Städte- und Währungsinformationen.
 
 ## Installation
 
@@ -32,7 +37,7 @@ Dieses Projekt ist unter der [GNU General Public License (GPL) v3](https://www.g
 
 ## Kontakt
 
-Bei Fragen oder Vorschlägen, kontaktiere mich unter [deine.email@example.com].
+Bei Fragen oder Vorschlägen, kontaktiere mich unter [sedat.duentas90@gmail.com].
 
 Folge mir auf GitHub, um über die neuesten Entwicklungen informiert zu bleiben!
 
