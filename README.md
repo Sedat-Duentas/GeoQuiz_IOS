@@ -26,14 +26,9 @@ Die GeoQuiz-App ist eine interaktive Anwendung, die dein Wissen über Flaggen, S
 ![Screenshot 1](link_zum_screenshot_1.png)
 ![Screenshot 2](link_zum_screenshot_2.png)
 
-## Mitwirkende
-
-- Sedat D.
-- [Name eines Mitwirkenden, falls vorhanden]
-
 ## Lizenz
 
-Dieses Projekt ist unter der [Lizenz] lizenziert - siehe die [LICENSE.md](LICENSE.md) Datei für Details.
+Dieses Projekt ist unter der [GNU General Public License (GPL) v3](https://www.gnu.org/licenses/gpl-3.0.html) lizenziert - siehe die [LICENSE.md](LICENSE.md) Datei für Details.
 
 ## Kontakt
 
