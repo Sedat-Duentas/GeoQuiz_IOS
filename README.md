@@ -1,5 +1,6 @@
-# GeoQuiz App 
 ![geoquizlogo](https://github.com/Sedat-Duentas/GeoQuiz_IOS/assets/121946890/d4a4e16e-b773-4c28-a39b-7d1e5f5224ac)
+
+# GeoQuiz App 
 
 Die GeoQuiz-App ist eine interaktive Anwendung, die dein Wissen über Flaggen, Städte und Währungen auf die Probe stellt. Teste dein geographisches Wissen und verbessere es, indem du Fragen zu verschiedenen Ländern der Welt beantwortest.
 
